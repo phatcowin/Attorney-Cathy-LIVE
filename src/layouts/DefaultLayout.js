@@ -18,7 +18,7 @@ function Layout() {
                 >
                     <Container fluid>
                         <Navbar.Brand
-                            href='/Attorney-Cathy-Cowin/'
+                            href='/'
                             aria-label='Home'
                         >
                             <img
@@ -39,13 +39,13 @@ function Layout() {
                         <Navbar.Collapse id='basic-navbar-nav'>
                             <Container>
                                 <Nav className="me-auto nav-links justify-content-end">
-                                    <Nav.Link href="/Attorney-Cathy-Cowin/">Home</Nav.Link>
-                                    <Nav.Link href="/Attorney-Cathy-Cowin/about">About</Nav.Link>
-                                    <Nav.Link href="/Attorney-Cathy-Cowin/agriculture">Agricultural Law</Nav.Link>
-                                    <Nav.Link href="/Attorney-Cathy-Cowin/business">Business Law</Nav.Link>
-                                    <Nav.Link href="/Attorney-Cathy-Cowin/real-estate">Real Estate Law</Nav.Link>
-                                    <Nav.Link href="/Attorney-Cathy-Cowin/mediation">Mediation</Nav.Link>
-                                    <Nav.Link href="/Attorney-Cathy-Cowin/contact">Contact</Nav.Link>
+                                    <Nav.Link href="/">Home</Nav.Link>
+                                    <Nav.Link href="/about">About</Nav.Link>
+                                    <Nav.Link href="/agriculture">Agricultural Law</Nav.Link>
+                                    <Nav.Link href="/business">Business Law</Nav.Link>
+                                    <Nav.Link href="/real-estate">Real Estate Law</Nav.Link>
+                                    <Nav.Link href="/mediation">Mediation</Nav.Link>
+                                    <Nav.Link href="/contact">Contact</Nav.Link>
                                 </Nav>
                             </Container>
                         </Navbar.Collapse>
@@ -86,13 +86,13 @@ function Layout() {
                             </Col>
                             <Col xs={5}>
                                 <Nav className='flex-column align-right'>
-                                    <Nav.Link href="/Attorney-Cathy-Cowin/">Home</Nav.Link>
-                                    <Nav.Link href="/Attorney-Cathy-Cowin/about">About</Nav.Link>
-                                    <Nav.Link href="/Attorney-Cathy-Cowin/agriculture">Agricultural Law</Nav.Link>
-                                    <Nav.Link href="/Attorney-Cathy-Cowin/business">Business Law</Nav.Link>
-                                    <Nav.Link href="/Attorney-Cathy-Cowin/real-estate">Real Estate Law</Nav.Link>
-                                    <Nav.Link href="/Attorney-Cathy-Cowin/mediation">Mediation</Nav.Link>
-                                    <Nav.Link href="/Attorney-Cathy-Cowin/contact">Contact</Nav.Link>
+                                    <Nav.Link href="/">Home</Nav.Link>
+                                    <Nav.Link href="/about">About</Nav.Link>
+                                    <Nav.Link href="/agriculture">Agricultural Law</Nav.Link>
+                                    <Nav.Link href="/business">Business Law</Nav.Link>
+                                    <Nav.Link href="/real-estate">Real Estate Law</Nav.Link>
+                                    <Nav.Link href="/mediation">Mediation</Nav.Link>
+                                    <Nav.Link href="/contact">Contact</Nav.Link>
                                 </Nav>
                             </Col>
                         </Row>
