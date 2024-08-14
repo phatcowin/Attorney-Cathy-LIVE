@@ -45,7 +45,7 @@ function HomePage() {
             >
                 <Container fluid className='text-box-blue text-center'>
                     <Container>
-                        <h2>
+                        <h2 id='what-to-expect'>
                             What To Expect
                         </h2>
                     </Container>
@@ -54,15 +54,17 @@ function HomePage() {
             <Container role='textbox'>
                 <Container className='text-box-white text-center'>
                     <p>
-                        When you call my office, I will answer personally whenever
-                        possible. If I can't take your call immediately, you can
-                        expect a timely call back. You're also welcome to leave a
-                        message by email at&nbsp;
-                        <a href='mailto:cathy@attorneycathycowin.com'>
-                            cathy@attorneycathycowin.com
-                        </a>
-                        . (Please do not leave any confidential information until
-                        a conflicts check has been created.)
+                        <b>
+                            When you call my office, I will answer personally whenever
+                            possible. If I can't take your call immediately, you can
+                            expect a timely call back. You're also welcome to leave a
+                            message by email at&nbsp;
+                            <a href='mailto:cathy@attorneycathycowin.com'>
+                                cathy@attorneycathycowin.com
+                            </a>
+                            . (Please do not leave any confidential information until
+                            a conflicts check has been created.)
+                        </b>
                     </p>
                     <Button className='call-to-action' href='tel:559-570-3735'>
                         Call (559) 570-3735
