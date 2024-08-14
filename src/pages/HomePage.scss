@@ -5,6 +5,11 @@
     border: none;
 }
 
+
+.hero-text {
+    padding: 15px !important;
+}
+
 .card {
     border: none;
     padding-bottom: 20px;
@@ -47,7 +52,7 @@
 }
 
 .slick-dots li button:before {
-    font-size: 10px !important;
+    font-size: 12pt !important;
     color: var(--brand-blue) !important;
 }
 

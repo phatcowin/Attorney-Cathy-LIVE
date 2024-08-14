@@ -16,7 +16,7 @@ function HomePage() {
             >
                 <Container fluid className='text-box-blue text-center'>
                     <Container>
-                        <h1>
+                        <h1 className='hero-text'>
                             Law Offices of Cathy Cowin
                         </h1>
                         <h2>
@@ -42,9 +42,9 @@ function HomePage() {
             >
                 <Container fluid className='text-box-blue text-center'>
                     <Container>
-                        <h1>
+                        <h2>
                             What To Expect
-                        </h1>
+                        </h2>
                     </Container>
                 </Container>
             </div>

@@ -16,14 +16,14 @@ function RealEstatePage() {
                         <h1>
                             Real Estate Law
                         </h1>
+                        <h3>
+                            Representing real estate clients since 1991
+                        </h3>
                     </Container>
                 </Container>
             </div>
             <Container fluid className='text-box-white'>
                 <Container>
-                    <h2>
-                        Representing real estate clients since 1991
-                    </h2>
                     <p>
                         Real estate law is one of the most complex areas of law. It's definitely not a 
                         do-it-yourself task. By way of example, I'll often have a potential client contact 

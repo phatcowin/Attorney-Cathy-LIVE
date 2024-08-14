@@ -16,14 +16,14 @@ function BusinessPage() {
                         <h1>
                             Business Law
                         </h1>
+                        <h3>
+                            Representing local business since 1991
+                        </h3>
                     </Container>
                 </Container>
             </div>
             <Container fluid className='text-box-white'>
                 <Container>
-                    <h2>
-                        Representing local businesses since 1991
-                    </h2>
                     <p>
                         Running a business can be challenging. We find that many business owners don't
                         seek legal representation soon enough - when the attorney could save you money

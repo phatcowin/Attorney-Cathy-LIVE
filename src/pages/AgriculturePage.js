@@ -16,6 +16,9 @@ function AgriculturePage() {
                         <h1>
                             Agricultural Law
                         </h1>
+                        <h3>
+                            You're not just growing crops.
+                        </h3>
                     </Container>
                 </Container>
             </div>

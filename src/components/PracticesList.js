@@ -127,7 +127,7 @@ function Practice(props) {
             />
             <Card.Body>
                 <Card.Title>
-                    <b>
+                    <b role='heading'>
                         {props.title}
                     </b>
                 </Card.Title>
