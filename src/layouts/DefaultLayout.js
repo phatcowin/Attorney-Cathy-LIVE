@@ -7,11 +7,29 @@ import logo_black from '../img/logo.svg';
 import logo_white from '../img/logo_white.svg';
 import './DefaultLayout.scss';
 import Disclaimers from '../components/Disclaimers';
+import { useLocation } from 'react-router-dom';
 
 function Layout() {
+    const location = useLocation();
+    var skipLocation = '#home-page';
+    console.log(location.pathname);
+    if (location.pathname == '/about')
+        skipLocation = '#about-page';
+    else if (location.pathname == '/agriculture')
+        skipLocation = '#agriculture-page';
+    else if (location.pathname == '/business')
+        skipLocation = '#business-page';
+    else if (location.pathname == '/contact')
+        skipLocation = '#contact-page';
+    else if (location.pathname == '/mediation')
+        skipLocation = '#mediation-page';
+    else if (location.pathname == '/real-estate')
+        skipLocation = '#real-estate-page';
+
     return (
         <div className='default-layout'>
             <header>
+                <a className='skip-link' href={skipLocation}>Skip to content</a>
                 <Container className='navbar-container'>
                     <Navbar
                         className='default-navbar'
@@ -37,7 +55,7 @@ function Layout() {
                             </Navbar.Brand>
                             <Navbar.Toggle className='navbar-toggle' aria-controls='basic-navbar-nav' />
 
-                            <Navbar.Collapse id='basic-navbar-nav'>
+                            <Navbar.Collapse id='basic-navbar-nav' role='navigation' aria-description='Main Menu'>
                                 <Container>
                                     <Nav className="me-auto nav-links justify-content-end">
                                         <Nav.Link href="/">Home</Nav.Link>
@@ -88,7 +106,7 @@ function Layout() {
                                     </h4>
                                 </Col>
                                 <Col xs={5}>
-                                    <Nav className='flex-column align-right'>
+                                    <Nav className='flex-column align-right' role='navigation' aria-description='Site Map'>
                                         <Nav.Link href="/">Home</Nav.Link>
                                         <Nav.Link href="/about">About</Nav.Link>
                                         <Nav.Link href="/agriculture">Agricultural Law</Nav.Link>

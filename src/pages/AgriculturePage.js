@@ -4,7 +4,7 @@ import Container from 'react-bootstrap/Container';
 
 function AgriculturePage() {
     return (
-        <div className='agriculture-page'>
+        <div id='agriculture-page'>
             <div
                 className='agriculture-background-image'
                 style={{

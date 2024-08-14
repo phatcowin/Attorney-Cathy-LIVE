@@ -5,7 +5,7 @@ import Button from 'react-bootstrap/Button';
 
 function MediationPage() {
     return (
-        <div className='mediation-page'>
+        <div id='mediation-page'>
             <div
                 className='mediation-background-image'
                 style={{

@@ -4,7 +4,7 @@ import aboutBackgroundImage from '../img/cathy_cowin_about.jpg'
 
 function AboutPage() {
     return (
-        <div className="about-page">
+        <div id="about-page">
             <div
                 className='about-background-image'
                 style={{

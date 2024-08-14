@@ -8,11 +8,13 @@ import Button from "react-bootstrap/Button";
 
 function HomePage() {
     return (
-        <div className="home-page" width='100%' height='100%'>
+        <div id="home-page" width='100%' height='100%'>
             <div
                 width='100%'
                 className='hero-image'
                 style={{ backgroundImage: `url(${heroImage})` }}
+                role='banner'
+                aria-label='hero image'
             >
                 <Container fluid className='text-box-blue text-center'>
                     <Container>
@@ -28,7 +30,7 @@ function HomePage() {
                     </Container>
                 </Container>
             </div>
-            <Container fluid>
+            <Container fluid role='slider' aria-description='Practice List Slider'>
                 <Container>
                     <Container className='practices-list text-center'>
                         <PracticesList />
@@ -39,6 +41,7 @@ function HomePage() {
                 width='100%'
                 className='hero-image'
                 style={{ backgroundImage: `url(${officeImage})` }}
+                role='banner'
             >
                 <Container fluid className='text-box-blue text-center'>
                     <Container>
@@ -48,7 +51,7 @@ function HomePage() {
                     </Container>
                 </Container>
             </div>
-            <Container>
+            <Container role='textbox'>
                 <Container className='text-box-white text-center'>
                     <p>
                         When you call my office, I will answer personally whenever

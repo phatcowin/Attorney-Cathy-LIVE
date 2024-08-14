@@ -4,7 +4,7 @@ import Container from 'react-bootstrap/Container';
 
 function BusinessPage() {
     return (
-        <div className='business-page'>
+        <div id='business-page'>
             <div
                 className='business-background-image'
                 style={{

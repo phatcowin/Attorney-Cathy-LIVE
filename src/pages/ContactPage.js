@@ -6,7 +6,7 @@ import ButtonGroup from 'react-bootstrap/ButtonGroup';
 
 function ContactPage() {
     return (
-        <div className='contact-page'>
+        <div id='contact-page'>
             <div
                 className='contact-background-image'
                 style={{

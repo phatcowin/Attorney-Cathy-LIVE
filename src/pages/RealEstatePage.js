@@ -4,7 +4,7 @@ import Container from 'react-bootstrap/Container';
 
 function RealEstatePage() {
     return (
-        <div className="realestate-page">
+        <div id="realestate-page">
             <div
                 className='realestate-background-image'
                 style={{
