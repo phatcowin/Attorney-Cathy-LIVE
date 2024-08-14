@@ -67,7 +67,7 @@
 }
 
 .text-box-blue h3 {
-    padding: 0 15px;
+    padding: 0 15px 20px 15px;
     font-size: 20pt;
     font-weight: 400;
 }
@@ -102,6 +102,116 @@
     color: var(--brand-blue) !important;
 }
 
+/* GREEN TEXT BOX */
+.text-box-green {
+    background-color: var(--brand-green-transparent);
+    color: white;
+    padding: 40px 0px 20px 0;
+}
+
+.text-box-green h1 {
+    padding: 15px;
+    font-size: 30pt;
+    font-weight: 900;
+}
+
+.text-box-green h2 {
+    padding: 15px;
+    font-size: 20pt;
+    font-weight: 400;
+}
+
+.text-box-green h3 {
+    padding: 0 15px;
+    font-size: 20pt;
+    font-weight: 400;
+}
+
+.text-box-green p {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.text-box-green .call-to-action {
+    background-color: white;
+    font-size: 20pt;
+    font-weight: 600;
+    color: var(--brand-green);
+    border-radius: 20px;
+    border-color: white;
+    border-width: 2px;
+    padding: 10px 40px;
+    margin: 15px 0 40px 0;
+}
+
+.text-box-green .call-to-action:hover {
+    border-color: white;
+    border-width: 2px;
+    background-color: var(--brand-green);
+    color: white;
+}
+
+.text-box-green .call-to-action:active {
+    border-color: white !important;
+    background-color: white !important;
+    color: var(--brand-green) !important;
+}
+
+/* YELLOW TEXT BOX */
+.text-box-yellow {
+    background-color: var(--brand-yellow-transparent);
+    color: white;
+    padding: 40px 0px 20px 0;
+}
+
+.text-box-yellow h1 {
+    padding: 15px;
+    font-size: 30pt;
+    font-weight: 900;
+}
+
+.text-box-yellow h2 {
+    padding: 15px;
+    font-size: 20pt;
+    font-weight: 400;
+}
+
+.text-box-yellow h3 {
+    padding: 0 15px;
+    font-size: 20pt;
+    font-weight: 400;
+}
+
+.text-box-yellow p {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.text-box-yellow .call-to-action {
+    background-color: white;
+    font-size: 20pt;
+    font-weight: 600;
+    color: var(--brand-yellow);
+    border-radius: 20px;
+    border-color: white;
+    border-width: 2px;
+    padding: 10px 40px;
+    margin: 15px 0 40px 0;
+}
+
+.text-box-yellow .call-to-action:hover {
+    border-color: white;
+    border-width: 2px;
+    background-color: var(--brand-yellow);
+    color: white;
+}
+
+.text-box-yellow .call-to-action:active {
+    border-color: white !important;
+    background-color: white !important;
+    color: var(--brand-yellow) !important;
+}
+
 /* GRAY TEXT BOX */
 .text-box-gray {
     background-color: var(--brand-gray);
@@ -117,6 +227,12 @@
 
 .text-box-gray h2 {
     padding: 15px;
+    font-size: 20pt;
+    font-weight: 400;
+}
+
+.text-box-gray h3 {
+    padding: 0 15px;
     font-size: 20pt;
     font-weight: 400;
 }
