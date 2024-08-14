@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/Attorney-Cathy-Cowin/static/css/main.04c06182.css",
+    "main.js": "/Attorney-Cathy-Cowin/static/js/main.5a55b5c4.js",
+    "static/js/453.8a09a1fc.chunk.js": "/Attorney-Cathy-Cowin/static/js/453.8a09a1fc.chunk.js",
+    "static/media/office_building.png": "/Attorney-Cathy-Cowin/static/media/office_building.ff0a08aab76837104721.png",
+    "static/media/agriculture_page.jpeg": "/Attorney-Cathy-Cowin/static/media/agriculture_page.5fc483f760d2dae20975.jpeg",
+    "static/media/realestate_page.jpeg": "/Attorney-Cathy-Cowin/static/media/realestate_page.612b4397ea31c7cf6542.jpeg",
+    "static/media/business_page.jpeg": "/Attorney-Cathy-Cowin/static/media/business_page.4b3ee3924b299001f981.jpeg",
+    "static/media/mediation_page.jpeg": "/Attorney-Cathy-Cowin/static/media/mediation_page.5cd892bcaebc22205059.jpeg",
+    "static/media/adobe_stock_example.jpeg": "/Attorney-Cathy-Cowin/static/media/adobe_stock_example.6bd035ed0cebb1ca69e6.jpeg",
+    "static/media/contact_page.jpeg": "/Attorney-Cathy-Cowin/static/media/contact_page.502ee40271d6113158ec.jpeg",
+    "static/media/cathy_cowin_about.jpg": "/Attorney-Cathy-Cowin/static/media/cathy_cowin_about.b4c29a7a8f338ba899a7.jpg",
+    "static/media/logo.svg": "/Attorney-Cathy-Cowin/static/media/logo.e3235ff8f5ce28c566f9c3f92af5b313.svg",
+    "static/media/logo_white.svg": "/Attorney-Cathy-Cowin/static/media/logo_white.dfc2b9964c1852c2fd8b959d8408a5f5.svg",
+    "static/media/slick.svg": "/Attorney-Cathy-Cowin/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/Attorney-Cathy-Cowin/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/Attorney-Cathy-Cowin/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/Attorney-Cathy-Cowin/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/Attorney-Cathy-Cowin/index.html",
+    "static/media/business_fraud.svg": "/Attorney-Cathy-Cowin/static/media/business_fraud.0f29ad740db169aab55ab980a99da62c.svg",
+    "static/media/agriculture.svg": "/Attorney-Cathy-Cowin/static/media/agriculture.3b47c85e8b42b7ee23882c7d53902dc8.svg",
+    "static/media/mediation.svg": "/Attorney-Cathy-Cowin/static/media/mediation.a80c064b0096d03502d4f607fd57bf57.svg",
+    "static/media/business_sale.svg": "/Attorney-Cathy-Cowin/static/media/business_sale.a1319d34e87d453310200cfd8ae9897a.svg",
+    "static/media/contract_draft.svg": "/Attorney-Cathy-Cowin/static/media/contract_draft.8c5d42f37166bedd931e50ed3a4bb2bc.svg",
+    "static/media/business.svg": "/Attorney-Cathy-Cowin/static/media/business.8d2fa93c9b61136ef5934750ab1793ee.svg",
+    "static/media/real_estate.svg": "/Attorney-Cathy-Cowin/static/media/real_estate.f876f6f34e63db1cf01c46a242fddd6a.svg",
+    "static/media/business_formation.svg": "/Attorney-Cathy-Cowin/static/media/business_formation.ea9437ca69d8fe36df242b296f855359.svg",
+    "static/media/litigation.svg": "/Attorney-Cathy-Cowin/static/media/litigation.39e0fb89a70b0da5c480c5e5202bec3e.svg",
+    "main.04c06182.css.map": "/Attorney-Cathy-Cowin/static/css/main.04c06182.css.map",
+    "main.5a55b5c4.js.map": "/Attorney-Cathy-Cowin/static/js/main.5a55b5c4.js.map",
+    "453.8a09a1fc.chunk.js.map": "/Attorney-Cathy-Cowin/static/js/453.8a09a1fc.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.04c06182.css",
+    "static/js/main.5a55b5c4.js"
+  ]
+}

@@ -1,0 +1,92 @@
+.logo-with-name {
+    white-space: nowrap;
+}
+
+.default-navbar {
+    background-color: var(--brand-white);
+    padding-left: 10px;
+    padding-right: 10px;
+    img {
+        width: 75px;
+        padding-top: 5px;
+        display: inline-block;
+    }
+
+    span {
+        display: inline-block;
+    }
+
+    h1 {
+        line-height: 10pt;
+        font-size: 20pt;
+    }
+
+    h2 {
+        font-size: 10pt;
+        line-height: 10pt;
+    }
+
+    .nav-links a {
+        text-align: right;
+        text-decoration: underline;
+    }
+}
+
+.navbar-toggle {
+    border: transparent !important;
+    box-shadow: none !important;
+
+    :focus {
+        border: 0 !important;
+        box-shadow: non !important;
+    }
+}
+
+.default-footer {
+    background-color: var(--brand-blue-transparent);
+    color: white;
+    padding: 10px;
+
+    img {
+        width: 75px;
+        padding-top: 5px;
+        display: inline-block;
+    }
+
+    span {
+        display: inline-block;
+    }
+
+    h1 {
+        line-height: 10pt;
+        font-size: 20pt;
+    }
+
+    h2 {
+        font-size: 10pt;
+        line-height: 10pt;
+    }
+
+    h3 {
+        font-size: 12pt;
+        padding-top: 10px;
+    }
+
+    p {
+        font-size: 10pt;
+        padding-top: 5px;
+    }
+    
+    a {
+        color: white;
+        text-decoration: underline;
+    }
+
+    a:hover {
+        color: var(--brand-white);
+    }
+
+    .flex-column {
+        text-align: right;
+    }
+}

@@ -1,0 +1,14 @@
+@import url("https://use.typekit.net/kfb7fzl.css");   /* Include Adobe Fonts */
+
+:root {
+  --brand-white: #FFFFFF;                           /* Brand Color Pallete */
+  --brand-white-transparent: rgba(255, 255, 255, 0.80);
+  --brand-blue: #1A1F64;
+  --brand-blue-transparent: rgba(26, 31, 100, 0.80);
+  --brand-gray: #2A2A2A;
+  --brand-gray-transparent: rgba(42, 42, 42, 0.80);
+}
+
+body {
+  font-family: "baskerville-display-pt", serif !important; /* Apply font to all text */
+}

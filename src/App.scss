@@ -1,0 +1,121 @@
+/* WHITE TEXT BOX */
+.text-box-white {
+    background-color: var(--brand-white-transparent);
+    color: black;
+    padding: 60px 0px;
+}
+
+.text-box-white h1 {
+    padding: 15px;
+    font-size: 30pt;
+    font-weight: 900;
+}
+
+.text-box-white h2 {
+    padding: 15px;
+    font-size: 20pt;
+    font-weight: 400;
+}
+
+.text-box-white p {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.text-box-white .call-to-action {
+    background-color: var(--brand-blue);
+    font-size: 20pt;
+    font-weight: 600;
+    color: var(--brand-white);
+    border-radius: 20px;
+    border-color: var(--brand-blue);
+    border-width: 2px;
+    padding: 10px 40px;
+    margin: 15px 0;
+}
+
+.text-box-white .call-to-action:hover {
+    border-color: var(--brand-blue);
+    border-width: 2px;
+    background-color: rgba(255, 255, 255, 0);
+    color: var(--brand-blue);
+}
+
+.text-box-white .call-to-action:active {
+    border-color: var(--brand-blue) !important;
+    background-color: var(--brand-blue) !important;
+    color: var(--brand-white) !important;
+}
+
+/* BLUE TEXT BOX */
+.text-box-blue {
+    background-color: var(--brand-blue-transparent);
+    color: white;
+    padding: 40px 0px 20px 0;
+}
+
+.text-box-blue h1 {
+    padding: 15px;
+    font-size: 30pt;
+    font-weight: 900;
+}
+
+.text-box-blue h2 {
+    padding: 15px;
+    font-size: 20pt;
+    font-weight: 400;
+}
+
+.text-box-blue p {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.text-box-blue .call-to-action {
+    background-color: white;
+    font-size: 20pt;
+    font-weight: 600;
+    color: var(--brand-blue);
+    border-radius: 20px;
+    border-color: white;
+    border-width: 2px;
+    padding: 10px 40px;
+    margin: 15px 0 40px 0;
+}
+
+.text-box-blue .call-to-action:hover {
+    border-color: white;
+    border-width: 2px;
+    background-color: rgba(26, 31, 100, 0);
+    color: white;
+}
+
+.text-box-blue .call-to-action:active {
+    border-color: white !important;
+    background-color: white !important;
+    color: var(--brand-blue) !important;
+}
+
+/* GRAY TEXT BOX */
+.text-box-gray {
+    background-color: var(--brand-gray);
+    color: white;
+    padding: 60px 0px;
+}
+
+.text-box-gray h1 {
+    padding: 15px;
+    font-size: 30pt;
+    font-weight: 900;
+}
+
+.text-box-gray h2 {
+    padding: 15px;
+    font-size: 20pt;
+    font-weight: 400;
+}
+
+.text-box-gray p {
+    padding-left: 15px;
+    padding-right: 15px;
+}
