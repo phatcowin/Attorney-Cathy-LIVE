@@ -32,7 +32,8 @@ function ContactPage() {
                         payable at the time of the appointment. Please note that all appointments are subject
                         to a conflicts check (required by law) and may need to be moved in the event of a
                         scheduling conflict not correctly indicated on the automatic scheduling calendar.
-                        Appointments for new clients are generally available on Monday-Thursday.
+                        Appointments for new clients are generally available on Mondays, Tuesdays, and 
+                        Thursdays, or by special request.
                     </p>
                     <p>
                         We <u>DO NOT</u> accept cases concerning:
@@ -42,7 +43,7 @@ function ContactPage() {
                             Criminal law
                         </li>
                         <li>
-                            Pro bono
+                            Pro bono / Contingency
                         </li>
                         <li>
                             Residential landlord-tenant (e.g. problems with your apartment landlord)
@@ -61,7 +62,9 @@ function ContactPage() {
                         <i>
                             Making an appointment does not create an attorney-client relationship which requires
                             a conflicts check, case evaluation, a signed attorney-client agreement, and typically
-                            payment of a retainer.
+                            payment of a retainer. When scheduling an appointment, please include the names of all
+                            other parties for a conflicts check. Do NOT include sensitive or confidential information
+                            until a conflicts check has been completed.
                         </i>
                     </p>
                     <Button className='call-to-action' href='https://lawofficesofcathycowin.cliogrow.com/book'>

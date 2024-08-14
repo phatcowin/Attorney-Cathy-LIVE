@@ -74,7 +74,7 @@ function BusinessPage() {
                         with legal representation.
                     </p>
                     <h2>
-                        Avoiding unnecessary business disputes & Relationship Insurance
+                        Avoiding unnecessary business disputes & "Relationship Insurance"
                     </h2>
                     <p>
                         Business conflicts can come from the outside or from the inside (usually the

@@ -51,12 +51,15 @@ function HomePage() {
             <Container>
                 <Container className='text-box-white text-center'>
                     <p>
-                        When you call Cathy's direct line, you can expect to
-                        immediately talk to an attorney or get a prompt call back,
-                        usually the same day. We will provide a brief, free consultation
-                        prior to making a paid appointment to determine if we're the
-                        right fit for you. Our goal is that each client (or potential
-                        client) is treated like family.
+                        When you call my office, I will answer personally whenever
+                        possible. If I can't take your call immediately, you can
+                        expect a timely call back. You're also welcome to leave a
+                        message by email at&nbsp;
+                        <a href='mailto:cathy@attorneycathycowin.com'>
+                            cathy@attorneycathycowin.com
+                        </a>
+                        . (Please do not leave any confidential information until
+                        a conflicts check has been created.)
                     </p>
                     <Button className='call-to-action' href='tel:559-570-3735'>
                         Call (559) 570-3735
@@ -64,18 +67,18 @@ function HomePage() {
 
                     <hr />
 
-                    <p><i>
+                    <p>
                         We do NOT accept cases concerning residential
                         landlord-tenant (e.g. problems with your apartment landlord),
                         personal injury or workers compensation; small claims court
                         (under $10,000 in damages); estate planning, or family law
                         (divorce and child custody),
-                    </i></p>
-                    <p><i>
+                    </p>
+                    <p>
                         Nothing on this webpage creates an attorney-client
                         relationship. Nothing is intended to provide advice
                         outside of the State of California.
-                    </i></p>
+                    </p>
                 </Container>
             </Container>
         </div>
