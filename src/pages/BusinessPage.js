@@ -17,7 +17,7 @@ function BusinessPage() {
                             Business Law
                         </h1>
                         <h3>
-                            Representing local business since 1991
+                            Representing local businesses since 1991
                         </h3>
                     </Container>
                 </Container>

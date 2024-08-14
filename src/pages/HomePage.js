@@ -63,7 +63,7 @@ function HomePage() {
                                 cathy@attorneycathycowin.com
                             </a>
                             . (Please do not leave any confidential information until
-                            a conflicts check has been created.)
+                            a conflicts check has been completed.)
                         </b>
                     </p>
                     <Button className='call-to-action' href='tel:559-570-3735'>

@@ -23,9 +23,7 @@ function businessDescription() {
             be challenging. We find that many business owners don't seek legal representation soon enough
             - when the attorney could save you money or keep you out of court. Wouldn't it be nice to have
             someone you could call with the tough questions? Someone that would come alongside to look
-            after your best interests and save you from undue liability?
-            <br /> <br />
-            We're here to help.
+            after your best interests and save you from undue liability? We're here to help.
         </>
     );
 }
@@ -110,7 +108,7 @@ function businessFraudDescription() {
 function businessSaleDescription() {
     return (
         <>
-            We can walk you through the purchase of sale of a business, including stock purchase
+            We can walk you through the purchase or sale of a business, including stock purchase
             agreements, LLC membership transfers, and asset transfer agreements
         </>
     );
@@ -178,7 +176,7 @@ function PracticesList(props) {
 
         {
             id: 5,
-            title: 'Agricultural Law & Insurance',
+            title: 'Agricultural Law & Ag Insurance',
             symbol: agricultureSymbol,
             description: agricultureDescription()
         },
