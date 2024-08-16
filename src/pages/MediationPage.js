@@ -15,7 +15,7 @@ function MediationPage() {
                 <Container fluid className='text-box-blue'>
                     <Container>
                         <h1>
-                            Mediation / Arbitration
+                            Mediation
                         </h1>
                     </Container>
                 </Container>
