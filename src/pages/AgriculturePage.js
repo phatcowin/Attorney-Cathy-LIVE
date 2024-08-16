@@ -17,7 +17,7 @@ function AgriculturePage() {
                             Agricultural Law
                         </h1>
                         <h3>
-                            You're not just growing crops.
+                            You're not just growing crops, you're running a sophisticated business.
                         </h3>
                     </Container>
                 </Container>
