@@ -45,12 +45,12 @@ function Layout() {
                                     alt="Law Offices of Cathy Cowin"
                                 />
                                 <span className='align-middle'>
-                                    <h3>
+                                    <div className='law-offices-of'>
                                         Law Offices of
-                                    </h3>
-                                    <h2>
+                                    </div>
+                                    <div className="cathy-cowin">
                                         Cathy Cowin
-                                    </h2>
+                                    </div>
                                 </span>
                             </Navbar.Brand>
                             <Navbar.Toggle className='navbar-toggle' aria-controls='basic-navbar-nav' />
@@ -90,21 +90,21 @@ function Layout() {
                                             alt="Cathy Cowin Logo"
                                         />
                                         <span className='align-middle'>
-                                            <h3>Law Offices of</h3>
-                                            <h2>Cathy Cowin</h2>
+                                            <div className='law-offices-of'>Law Offices of</div>
+                                            <div className='cathy-cowin'>Cathy Cowin</div>
                                         </span>
                                     </div>
-                                    <h4>
+                                    <div className='footer-info'>
                                         7600 North Ingram, Suite 102,<br />
                                         Fresno, California 93711 <br />
                                         (559) 570-3647
-                                    </h4>
-                                    <h4>
+                                    </div>
+                                    <div className='footer-info'>
                                         &copy; 2024 Law Offices of Cathy Cowin<br />
                                         <a href='https://cowin.dev'>
                                             Designed by Dalton
                                         </a>
-                                    </h4>
+                                    </div>
                                 </Col>
                                 <Col xs={5}>
                                 { /* eslint-disable-next-line */}
