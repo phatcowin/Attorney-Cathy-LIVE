@@ -1,5 +1,5 @@
 import './RealEstatePage.scss';
-import realEstateBackgroundImage from '../img/business_page.jpeg';
+import realEstateBackgroundImage from '../img/realEstateStock.jpeg';
 import Container from 'react-bootstrap/Container';
 
 function RealEstatePage() {

@@ -1,5 +1,5 @@
 import './HomePage.scss';
-import heroImage from '../img/adobe_stock_example.jpeg';
+import heroImage from '../img/homePageStock.jpeg';
 import officeImage from '../img/office_building.png';
 import PracticesList from '../components/PracticesList';
 

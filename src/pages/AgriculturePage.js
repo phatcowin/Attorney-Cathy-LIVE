@@ -1,5 +1,5 @@
 import './AgriculturePage.scss';
-import agricultureBackgroundImage from '../img/agriculture_page.jpeg';
+import agricultureBackgroundImage from '../img/agPageStock.jpeg';
 import Container from 'react-bootstrap/Container';
 
 function AgriculturePage() {

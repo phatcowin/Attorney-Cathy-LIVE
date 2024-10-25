@@ -1,5 +1,5 @@
 import './ContactPage.scss';
-import contactBackgroundImage from '../img/contact_page.jpeg';
+import contactBackgroundImage from '../img/contactStock.jpeg';
 import Container from 'react-bootstrap/Container';
 import Button from 'react-bootstrap/Button';
 import ButtonGroup from 'react-bootstrap/ButtonGroup';
@@ -77,8 +77,8 @@ function ContactPage() {
                     </h2>
                     <p>
                         Phone:&nbsp;
-                        <a href='tel:559-570-3735'>
-                            (559) 570-3735
+                        <a href='tel:559-570-3647'>
+                            (559) 570-3647
                         </a>
                     </p>
                     <p>

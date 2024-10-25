@@ -1,5 +1,5 @@
 import './MediationPage.scss';
-import mediationBackgroundImage from '../img/mediation_page.jpeg';
+import mediationBackgroundImage from '../img/mediationStock.jpeg';
 import Container from 'react-bootstrap/Container';
 import Button from 'react-bootstrap/Button';
 
