@@ -31,7 +31,7 @@ function HomePage() {
                 </Container>
             </div>
             { /* eslint-disable-next-line */ }
-            <Container fluid role='slider' aria-description='Practice List Slider Container'>
+            <Container fluid aria-description='Practice List Slider Container'>
                 <Container>
                     <Container className='practices-list text-center'>
                         <PracticesList />
