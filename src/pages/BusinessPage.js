@@ -1,5 +1,5 @@
 import './BusinessPage.scss';
-import businessBackgroundImage from '../img/business_page.jpeg';
+import businessBackgroundImage from '../img/businessContract.jpeg';
 import Container from 'react-bootstrap/Container';
 
 function BusinessPage() {
