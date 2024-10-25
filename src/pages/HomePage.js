@@ -30,6 +30,7 @@ function HomePage() {
                     </Container>
                 </Container>
             </div>
+            { /* eslint-disable-next-line */ }
             <Container fluid role='slider' aria-description='Practice List Slider'>
                 <Container>
                     <Container className='practices-list text-center'>
@@ -66,8 +67,8 @@ function HomePage() {
                             a conflicts check has been completed.)
                         </b>
                     </p>
-                    <Button className='call-to-action' href='tel:559-570-3735'>
-                        Call (559) 570-3735
+                    <Button className='call-to-action' href='tel:559-570-3647'>
+                        Call (559) 570-3647
                     </Button>
 
                     <hr />

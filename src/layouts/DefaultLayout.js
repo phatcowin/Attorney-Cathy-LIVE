@@ -13,17 +13,17 @@ function Layout() {
     const location = useLocation();
     var skipLocation = '#home-page';
     console.log(location.pathname);
-    if (location.pathname == '/about')
+    if (location.pathname === '/about')
         skipLocation = '#about-page';
-    else if (location.pathname == '/agriculture')
+    else if (location.pathname === '/agriculture')
         skipLocation = '#agriculture-page';
-    else if (location.pathname == '/business')
+    else if (location.pathname === '/business')
         skipLocation = '#business-page';
-    else if (location.pathname == '/contact')
+    else if (location.pathname === '/contact')
         skipLocation = '#contact-page';
-    else if (location.pathname == '/mediation')
+    else if (location.pathname === '/mediation')
         skipLocation = '#mediation-page';
-    else if (location.pathname == '/real-estate')
+    else if (location.pathname === '/real-estate')
         skipLocation = '#real-estate-page';
 
     return (
@@ -55,6 +55,7 @@ function Layout() {
                             </Navbar.Brand>
                             <Navbar.Toggle className='navbar-toggle' aria-controls='basic-navbar-nav' />
 
+                            { /* eslint-disable-next-line */ }
                             <Navbar.Collapse id='basic-navbar-nav' role='navigation' aria-description='Main Menu'>
                                 <Container>
                                     <Nav className="me-auto nav-links justify-content-end">
@@ -96,7 +97,7 @@ function Layout() {
                                     <h4>
                                         7600 North Ingram, Suite 102,<br />
                                         Fresno, California 93711 <br />
-                                        (559) 570-3735
+                                        (559) 570-3647
                                     </h4>
                                     <h4>
                                         &copy; 2024 Law Offices of Cathy Cowin<br />
@@ -106,6 +107,7 @@ function Layout() {
                                     </h4>
                                 </Col>
                                 <Col xs={5}>
+                                { /* eslint-disable-next-line */}
                                     <Nav className='flex-column align-right' role='navigation' aria-description='Site Map'>
                                         <Nav.Link href="/">Home</Nav.Link>
                                         <Nav.Link href="/about">About</Nav.Link>
