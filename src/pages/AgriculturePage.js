@@ -10,6 +10,7 @@ function AgriculturePage() {
                 style={{
                     backgroundImage: `url(${agricultureBackgroundImage})`,
                 }}
+                aria-label="Agriculture Page Banner"
             >
                 <Container fluid className='text-box-blue'>
                     <Container>
@@ -22,7 +23,7 @@ function AgriculturePage() {
                     </Container>
                 </Container>
             </div>
-            <Container fluid className='text-box-white'>
+            <Container fluid className='text-box-white' aria-label="Agriculture Page Content">
                 <Container>
                     <h2>
                         Representing farm clients since 1991

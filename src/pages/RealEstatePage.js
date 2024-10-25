@@ -10,6 +10,7 @@ function RealEstatePage() {
                 style={{
                     backgroundImage: `url(${realEstateBackgroundImage})`,
                 }}
+                aria-label="Real Estate Page Banner"
             >
                 <Container fluid className='text-box-blue'>
                     <Container>
@@ -22,7 +23,7 @@ function RealEstatePage() {
                     </Container>
                 </Container>
             </div>
-            <Container fluid className='text-box-white'>
+            <Container fluid className='text-box-white' aria-label="Real Estate Page Content">
                 <Container>
                     <p>
                         Real estate law is one of the most complex areas of law. It's definitely not a 

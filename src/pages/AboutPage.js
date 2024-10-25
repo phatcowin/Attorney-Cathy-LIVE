@@ -10,6 +10,7 @@ function AboutPage() {
                 style={{
                     backgroundImage: `url(${aboutBackgroundImage})`,
                 }}
+                aria-label="About Page Banner"
             >
                 <Container fluid className='text-box-blue'>
                     <Container>
@@ -19,7 +20,7 @@ function AboutPage() {
                     </Container>
                 </Container>
             </div>
-            <Container fluid className='text-box-white'>
+            <Container fluid className='text-box-white' aria-label="About Page Content">
                 <Container>
                     <h2>
                         Personal

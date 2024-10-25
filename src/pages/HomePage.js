@@ -16,7 +16,7 @@ function HomePage() {
                 role='banner'
                 aria-label='hero image'
             >
-                <Container fluid className='text-box-blue text-center'>
+                <Container fluid className='text-box-blue text-center' aria-label="Hero Element Content">
                     <Container>
                         <h1 className='hero-text'>
                             Law Offices of Cathy Cowin
@@ -31,7 +31,7 @@ function HomePage() {
                 </Container>
             </div>
             { /* eslint-disable-next-line */ }
-            <Container fluid role='slider' aria-description='Practice List Slider'>
+            <Container fluid role='slider' aria-description='Practice List Slider Container'>
                 <Container>
                     <Container className='practices-list text-center'>
                         <PracticesList />
@@ -44,7 +44,7 @@ function HomePage() {
                 style={{ backgroundImage: `url(${officeImage})` }}
                 role='banner'
             >
-                <Container fluid className='text-box-blue text-center'>
+                <Container fluid className='text-box-blue text-center' aria-label="What to expect banner">
                     <Container>
                         <h2 id='what-to-expect'>
                             What To Expect
@@ -52,7 +52,7 @@ function HomePage() {
                     </Container>
                 </Container>
             </div>
-            <Container role='textbox'>
+            <Container role='textbox' aria-label="What to expect content">
                 <Container className='text-box-white text-center'>
                     <p>
                         <b>

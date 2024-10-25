@@ -125,7 +125,7 @@ function Practice(props) {
             />
             <Card.Body>
                 <Card.Title>
-                    <b role='heading'>
+                    <b role='heading' aria-level="2">
                         {props.title}
                     </b>
                 </Card.Title>
@@ -241,7 +241,7 @@ function PracticesList(props) {
         }
     }
     return (
-        <Slider {...settings}>
+        <Slider {...settings} aria-label="Practices List Slider">
             {practices.map((practice) => {
                 return (
                     <Practice

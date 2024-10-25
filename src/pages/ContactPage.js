@@ -12,6 +12,7 @@ function ContactPage() {
                 style={{
                     backgroundImage: `url(${contactBackgroundImage})`,
                 }}
+                aria-label="Contact Page Banner"
             >
                 <Container fluid className='text-box-blue'>
                     <Container>
@@ -21,7 +22,7 @@ function ContactPage() {
                     </Container>
                 </Container>
             </div>
-            <Container fluid className='text-box-white'>
+            <Container fluid className='text-box-white' aria-label="Contact Page Content">
                 <Container>
                     <h2>
                         Free & Paid Consultations

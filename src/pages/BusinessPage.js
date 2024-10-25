@@ -10,6 +10,7 @@ function BusinessPage() {
                 style={{
                     backgroundImage: `url(${businessBackgroundImage})`,
                 }}
+                aria-label="Business Page Banner"
             >
                 <Container fluid className='text-box-blue'>
                     <Container>
@@ -22,7 +23,7 @@ function BusinessPage() {
                     </Container>
                 </Container>
             </div>
-            <Container fluid className='text-box-white'>
+            <Container fluid className='text-box-white' aria-label="Business Page Content">
                 <Container>
                     <p>
                         Running a business can be challenging. We find that many business owners don't

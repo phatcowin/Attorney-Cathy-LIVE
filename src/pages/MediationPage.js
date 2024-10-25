@@ -11,6 +11,7 @@ function MediationPage() {
                 style={{
                     backgroundImage: `url(${mediationBackgroundImage})`,
                 }}
+                aria-label="Mediation Page Banner"
             >
                 <Container fluid className='text-box-blue'>
                     <Container>
@@ -20,7 +21,7 @@ function MediationPage() {
                     </Container>
                 </Container>
             </div>
-            <Container fluid className='text-box-white'>
+            <Container fluid className='text-box-white' aria-label="Mediation Page Content">
                 <Container>
                     <h2>
                         Mediation Services
