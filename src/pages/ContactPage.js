@@ -29,13 +29,13 @@ function ContactPage() {
                     </h2>
                     <p>
                         Free consultations are 15 minutes by phone to determine if your case is something we
-                        handle and to answer general legal questions, not to provice a case-specific analysis. 
+                        handle and to answer general legal questions, not to provide a case-specific analysis. 
                         You can also book a paid appointment at the office.  Consultation fees are
                         payable at the time of the appointment. Please note that all appointments are subject
                         to a conflicts check (required by law) and may need to be moved in the event of a
                         scheduling conflict not correctly indicated on the automatic scheduling calendar.
                         Appointments for new clients are generally available on Mondays, Tuesdays, and 
-                        Thursdays, or on other daysby special request.
+                        Thursdays, or on other days by special request.
                     </p>
                     <p>
                         We <u>DO NOT</u> accept cases concerning:
